@@ -9,11 +9,9 @@ function App() {
   return (
     <div>
       <h1>Welcome to my website</h1>
-      <button onClick={()=>{
-        console.log("clicked")
-      }}>
+      <div className="model">
         <ObjectViewer model={"/robot.glb"} />
-      </button>
+      </div>
       <h1>Otiete Ayebanua</h1>
     </div>
   );

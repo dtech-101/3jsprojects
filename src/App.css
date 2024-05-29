@@ -39,8 +39,5 @@
 
 .model{
   border: solid red;
-  height: 50px;
-}
-button{
-  height: 50px;
+  height: 50vw;
 }
